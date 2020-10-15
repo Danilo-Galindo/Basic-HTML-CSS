@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>WebSite</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="test.js"></script>
+</head>
+<body>
+    <div id="Number1">
+        <h1>Title 1:</h1>
+        <hr/>
+        <br/>
+        <p>This is the paragraph number 1</p>
+        <a href="https://www.makeitreal.camp" target="blank">MakeitReal.com</a>
+    </div>
+    <!-- Here starts a comment-->
+    <div class="Class1">
+        <h2>Title 2:</h2>
+        <hr/>
+        <br/>
+        <h2>My ordered list</h2>
+        <ol>
+            <li>Coffee</li>
+            <li>Milk</li>
+            <li>Fruits</li>
+            <li>Bread</li>
+        </ol>
+    </div>
+    <div id="uol">
+        <h3>My unordered list</h3>
+        <hr/>
+        <br/>
+        <ul>
+            <li>Colombia</li>
+            <li>Argentina</li>
+            <li>Usa</li>
+            <li><span>Italia</span></li>
+        </ul>
+    </div>
+    <br/>
+    <br/>
+    <!--Tables-->
+    <table border="">
+        <thead>
+            <tr>
+                <th>Column,1</th>
+                <td>Column,2</td>
+                
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="2">Column,1</td>
+                <td rowspan="2">column,3</td>
+                
+
+            </tr>
+        </tbody>
+
+    </table>
+    <img src="C:\Users\Usuario\Pictures\Saved Pictures\nature.jpg">
+    <br/>
+    <br/>
+    <hr/>
+    <!--Reto: capturando información del usuario-->
+    <div class="Form">
+        <form action="https://makeitreal.camp" method="GET">
+            <div>
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="write your email">
+            </div>
+            <div>
+                <label>Number:</label>
+                <input type="number" name="Number">
+            </div>
+
+            <div>
+                <label for="date1">Date:</label>
+                <input type="date" name="date" id="date1">
+            </div>
+            <textarea name="message" id="text" cols="30" rows="10"></textarea>
+
+            <select>
+                <option value="male">Male</option>
+            </select>
+            <input type="submit" name="submit" value="Submit"/>
+            <button type="submit">Send form</button>
+
+        </form>
+    </div>
+    <!--Other samples of elements on the form-->
+    <br/>
+    <br/>
+    <br/>
+    
+    <fieldset>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre"/>
+    </fieldset>
+    <fieldset>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido"/>
+      </fieldset>
+    
+    <fieldset>
+        <label>
+          Correo
+          <input type="email" name="email"/>
+        </label>
+    </fieldset>
+
+    <fieldset>
+        <label>Color</label>
+        <select>
+            <option>Seleccionar un color</option>
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+            <option value="green">Green</option>
+
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <label>
+          <input type="radio" name="talla" value="S" />
+          Talla S
+        </label>
+        <label>
+          <input type="radio" name="talla" value="M" checked />
+          Talla M
+        </label>
+        <label>
+          <input type="radio" name="talla" value="L" />
+          Talla L
+        </label>
+      </fieldset>
+      <fieldset>
+          <label>Comment</label>
+          <textarea name="message"></textarea>
+      </fieldset>
+      <fieldset>
+          <input type="submit" name="submit" value="pedir"/>
+      </fieldset>
+
+      
+
+      <br/>
+      <br/>
+      <br/>
+      
+      <fieldset>
+        <label for="password">Clave</label>
+        <input type="password" name="password" id="password"
+            value="Incorrecto" size="8" />
+      </fieldset>
+      
+
+</body>
+</html>

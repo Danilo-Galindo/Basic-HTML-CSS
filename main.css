@@ -1,0 +1,44 @@
+body{
+    margin:0px;
+}
+
+#Number1{
+    background-color:#0000ff;
+    border: 10px solid rgb(53, 4, 4);
+    padding:20px;
+}
+
+.Class1{
+    background-color:green;
+    border: 5px solid peachpuff;
+}
+.Class1 ol{
+    background-color:yellow;
+}
+
+a{
+    color:white;
+}
+
+thead{
+    color:yellow;
+}
+
+tbody{
+    color:orange;
+}
+
+table,tr,td{ 
+    border:2px solid blue;
+    background-color:black;
+    border-collapse:collapse;
+}
+
+#uol{
+    background-color:black;
+    color:white;
+}
+
+#uol span{
+    color:red;
+}
