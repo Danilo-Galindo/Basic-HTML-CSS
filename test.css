@@ -1,3 +1,30 @@
-table{
-    background-color:blue;
+.container{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
 }
+
+.box-box1{
+    height:100px;
+    width:100px;
+    background-color: green;
+    order:1;
+    flex-shrink:10;
+}
+
+.box-box2{
+    height:100px;
+    width:100px;
+    background-color: greenyellow;
+    order:2;
+}
+
+.box-box3{
+    height:100px;
+    width:100px;
+    background-color: silver;
+}
+
+
